@@ -4,17 +4,17 @@ function Navigation() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul>
-      <li>
+    <ul className="navbar">
+      <li className="item">
         <Link to="/">Home</Link>
       </li>
-      <li>
+      <li className="item">
         <Link to="/Roster">Roster</Link>
       </li>
-      <li>
+      <li className="item">
         <Link to="/Schedule">Schedule</Link>
       </li>
-      <li>
+      <li className="item">
         <Link to="/Login">Login</Link>
       </li>
     </ul>

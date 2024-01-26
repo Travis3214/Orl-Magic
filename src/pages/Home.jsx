@@ -4,4 +4,4 @@ export default function Home() {
             hey
         </div>
     );
-}
+};
