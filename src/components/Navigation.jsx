@@ -5,16 +5,16 @@ function Navigation() {
 
   return (
     <ul className="navbar">
-      <li className="item">
+      <li>
         <Link to="/">Home</Link>
       </li>
-      <li className="item">
+      <li>
         <Link to="/Roster">Roster</Link>
       </li>
-      <li className="item">
+      <li>
         <Link to="/Schedule">Schedule</Link>
       </li>
-      <li className="item">
+      <li>
         <Link to="/Login">Login</Link>
       </li>
     </ul>
