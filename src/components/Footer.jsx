@@ -16,7 +16,6 @@ export default function Footer() {
             Travis Rivera
         </div>
       </div>
-      
       <div>
         <a className="link" target="_blank" href="https://github.com/Travis3214">
           <FaGithub className="icon" />
