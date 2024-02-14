@@ -1,7 +1,8 @@
 export default function Home() {
     return (
         <div>
-            hey
+            <div className="homeTitle">Welcome Orlando Magic Fans!</div>
+            <div></div>
         </div>
     );
 };
