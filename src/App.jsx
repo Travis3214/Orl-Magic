@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-      <div>
-        <div className='main'>
+      <div className='main'>
+        <div className='contentWrap'>
           <Header />
           <Navigation />
           <Outlet />
