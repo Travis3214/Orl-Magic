@@ -1,8 +1,7 @@
 export default function Home() {
     return (
-        <div>
-            <div className="homeTitle">Welcome Orlando Magic Fans!</div>
-            <div></div>
+        <div className="homePage">
+            <div>Welcome Orlando Magic Fans! Create an account and join our community today!</div>
         </div>
     );
 };
