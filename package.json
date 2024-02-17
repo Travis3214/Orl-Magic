@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "## Description This is a personal project im building to help develop my skills in React. I wanted to build something I'm passionate about in my persoanl life. As a basketball player growing up in Central Florida I became a die hard Orlando Magic fan. I wanted to build a website for my favorite team in which the community can come together to support. The goal is to create a Full-Stack application using React to view the teams roster and upcoming schedule. I want users to be able to login and post threads/comments to spark conversation around our young up and coming team.",
   "main": "index.js",
-    "scripts": {
-      "dev": "cd client && npm run dev",
-      "build": "vite build",
-      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-      "preview": "vite preview"
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^8.2.2",
     "dotenv": "^16.4.4"
   }
 }
